@@ -1,9 +1,0 @@
-[{
-	"hello":"world",
-	"sub":{
-	"dictionary":"book",
-	"wikipedia":"website"
-	},
-	"number":123
-}
-]
