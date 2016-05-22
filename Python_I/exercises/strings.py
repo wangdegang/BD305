@@ -12,12 +12,13 @@ e = math.e
 #Now print "e to 10 decimal places: ", followed by the
 #numerical value of e out to 10 decimal places, using
 #string formatting and e, defined above.
-print()
+print("e to 10 decimal places: {0:.10f}". format(e))
 
 mixed_case_string = "cHAngE BANKing fOR GooD."
 #Set lower_case_string equal to mixed_case_string, only
 #with all lower case letters.
-lower_case_string = None
+lower_case_string = mixed_case_string.lower()
+print(lower_case_string)
 
 #The first paragraph of Capital One's Wikipedia article
 #(Accessed 4/20/2015):
@@ -38,9 +39,11 @@ wiki_intro = "Capital One Financial Corporation is a U.S."\
 #of the wiki_intro string. Note that wiki_intro uses linebreaks
 #(backslashes \) to make this long string easier to read. The
 #linebreaks don't count as a character in the string.
-num_branches = None
+num_branches = wiki_intro[310:313]
+print(num_branches)
 
 #set wiki_intro_nospaces to equal wiki_intro, but with *ALL* of
 #the spaces removed - e.g. "Capital One Financial Corporation"
 #becomes "CapitalOneFinancialCorporation".
-wiki_intro_nospaces = None
+wiki_intro_nospaces = wiki_intro.replace(' ', '')
+print(wiki_intro_nospaces)
